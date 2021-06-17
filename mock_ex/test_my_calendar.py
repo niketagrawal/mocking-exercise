@@ -1,3 +1,14 @@
+'''
+In the Testclass make a mocked version of the original function, give it the 
+same name. Set the mocked function as a class variable and then use self. 
+notation inside the mocked function definition. It is not needed to call the 
+original function inside the test for that function when mocking is being used.
+Instead, we call the mocked version of that function inside it. The mock 
+version for a function fun() needs to be in the same class as a member function
+and can be named mock_fun() to avoid confusion. The test function can be named 
+in the usual way test_fun()
+'''
+
 import datetime
 import unittest
 from requests.exceptions import Timeout
