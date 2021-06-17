@@ -1,0 +1,1 @@
+Code examples from the [Real Python tutorial](https://realpython.com/python-mock-library/) on writing software tests using the Python mock object library
