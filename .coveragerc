@@ -1,0 +1,5 @@
+[run]
+source = .
+
+[report]
+omit = ./mock_ex/test_*, ./mock_patch/test_*, ./exp/test_*
