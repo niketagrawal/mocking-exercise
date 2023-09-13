@@ -23,4 +23,3 @@ cd mocking-exercise/
 pytest
 ```
 
-some text
